@@ -1,0 +1,11 @@
+{
+  "title": "robinsoft — CreationUnion",
+  "brand": "robinsoft",
+  "nav": {"home":"Accueil","products":"Produits","about":"À propos"},
+  "hero": {"title":"Bienvenue chez robinsoft","p1":"Nous sommes l'équipe de développement robinsoft, spécialisée dans les solutions multimédias et cloud. Notre produit actuel inclut <strong>CloudMediaPlayer</strong>, et d'autres produits seront publiés.","button":"Voir les produits"},
+  "mission": {"title":"Notre mission","p":"Concevoir des logiciels simples, fiables et créatifs pour aider les utilisateurs à mieux gérer et lire du contenu multimédia."},
+  "footer": {"year":"2026","suffix":"CreationUnion"},
+  "products": {"title":"Produits - robinsoft","heading":"Nos produits","more":"Plus de produits","more":{"p":"Nous travaillons sur d'autres produits, restez à l'écoute."}},
+  "product": {"cmp": {"title":"CloudMediaPlayer","p":"CloudMediaPlayer est un lecteur multimédia basé sur le cloud qui prend en charge le streaming, la gestion des listes de lecture et la synchronisation entre appareils."},"status":"Statut : Publié"},
+  "about": {"title":"À propos de robinsoft","heading":"À propos de nous","p":"robinsoft est une équipe de développement axée sur les services multimédias et cloud. Notre objectif est de fournir des applications stables, simples et puissantes aux utilisateurs.","contact":"Contact","contact": {"value":"<em>contact@robinsoft.example</em>"}}
+}
