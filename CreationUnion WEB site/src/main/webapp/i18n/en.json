@@ -5,7 +5,7 @@
   "hero": {"title":"Welcome to robinsoft","p1":"We are the robinsoft development team, focusing on multimedia and cloud solutions. Our current product includes <strong>CloudMediaPlayer</strong>, and more products will be released.","button":"View products"},
   "mission": {"title":"Our mission","p":"Build simple, reliable and creative software to help users better manage and play multimedia content."},
   "footer": {"year":"2026","suffix":"CreationUnion"},
-  "products": {"title":"Products - robinsoft","heading":"Our products","more":"More products","more":{"p":"We are working on more products, stay tuned."}},
+  "products": {"title":"Products - robinsoft","heading":"Our products","more":"More...","more":{"p":"More..."}},
   "product": {"cmp": {"title":"CloudMediaPlayer","p":"CloudMediaPlayer is a cloud-based media player and manager that supports streaming, playlist management and cross-device sync."},"status":"Status: Released"},
   "cmpDetail": {
     "pageTitle": "CloudMediaPlayer - robinsoft",

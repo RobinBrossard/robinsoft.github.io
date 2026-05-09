@@ -5,7 +5,7 @@
   "hero": {"title":"歡迎來到 robinsoft","p1":"我們是 robinsoft 開發團隊，專注於多媒體和雲端解決方案。目前的產品包括 <strong>CloudMediaPlayer</strong>，更多產品將陸續發布。","button":"查看產品"},
   "mission": {"title":"我們的使命","p":"打造簡單、可靠、富有創意的軟體，幫助使用者更好地管理和播放多媒體內容。"},
   "footer": {"year":"2026","suffix":"CreationUnion"},
-  "products": {"title":"產品 - robinsoft","heading":"我們的產品","more":"更多產品","more":{"p":"我們正在開發更多產品，敬請期待。"}},
+  "products": {"title":"產品 - robinsoft","heading":"我們的產品","more":"More...","more":{"p":"More..."}},
   "product": {"cmp": {"title":"CloudMediaPlayer","p":"CloudMediaPlayer 是一款基於雲端的多媒體播放和管理工具，支援線上串流、播放清單管理與跨裝置同步。"},"status":"狀態：已發布"},
   "cmpDetail": {
     "pageTitle": "CloudMediaPlayer - robinsoft",
