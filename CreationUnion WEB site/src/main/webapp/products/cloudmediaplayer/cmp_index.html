@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>
+    window.i18n = window.i18n || {};
+    window.i18n.pageTitleKey = 'cmpDetail.pageTitle';
+  </script>
+  <title data-i18n="cmpDetail.pageTitle">CloudMediaPlayer - robinsoft</title>
+  <link rel="stylesheet" href="../../css/style.css">
+  <script src="../../js/i18n.js" defer></script>
+  <script src="../../js/include.js" defer></script>
+</head>
+<body>
+  <div data-include="../../partials/header.html"></div>
+
+  <main class="container">
+    <section class="cmp-detail">
+      <div class="cmp-detail-header">
+        <img class="cmp-logo" src="../../images/cloudmediaplayer-logo.png" alt="CloudMediaPlayer logo">
+        <div>
+          <h2 data-i18n="product.cmp.title">CloudMediaPlayer</h2>
+          <p data-i18n="cmpDetail.slogan">Cloud-based media playback and management for modern users.</p>
+        </div>
+      </div>
+
+      <p data-i18n="cmpDetail.intro1">CloudMediaPlayer is the flagship product of robinsoft. It brings together media playback, playlist management, and cross-device access in a single streamlined experience.</p>
+      <p data-i18n="cmpDetail.intro2">This page follows the same banner, typography, and layout style as the rest of the site, and provides quick access to the related Google Sites pages below.</p>
+
+      <section class="cmp-detail-section">
+        <h3 data-i18n="cmpDetail.audiencesTitle">Target audiences</h3>
+        <p data-i18n="cmpDetail.audiences">Multi-generational families and adult children sharing life with elderly parents; small business owners using screens for digital signage; and eco-conscious home decorators repurposing old devices as digital frames to enhance their living environment.</p>
+      </section>
+
+      <section class="cmp-detail-section">
+        <h3 data-i18n="cmpDetail.valueTitle">Application value</h3>
+        <p data-i18n="cmpDetail.value1">CloudMediaPlayer breathes life into old devices by optimizing performance for low-end hardware.</p>
+        <p data-i18n="cmpDetail.value2">It creates value through multi-cloud photo aggregation, turning unused tablets into dynamic family hubs. Adhering to Google Play quality standards, it offers a stable, efficient, and purposeful UX.</p>
+      </section>
+
+      <div class="cmp-detail-section">
+        <h3 data-i18n="cmpDetail.linksTitle">Related links</h3>
+        <div class="cmp-detail-links" aria-label="CloudMediaPlayer related links">
+          <a class="cmp-detail-link" href="https://sites.google.com/view/cloudmediaplayer/privacy-policy" data-i18n="cmpDetail.linkPrivacyPolicy">Privacy Policy</a>
+          <a class="cmp-detail-link" href="https://sites.google.com/view/cloudmediaplayer/copyright-notice" data-i18n="cmpDetail.linkCopyrightNotice">Copyright Notice</a>
+          <a class="cmp-detail-link" href="https://sites.google.com/view/cloudmediaplayer/payment-policy" data-i18n="cmpDetail.linkPaymentPolicy">Payment Policy</a>
+          <a class="cmp-detail-link" href="https://sites.google.com/view/cloudmediaplayer/help-center" data-i18n="cmpDetail.linkHelpCenter">Help Center</a>
+          <a class="cmp-detail-link" href="https://sites.google.com/view/cloudmediaplayer/terms-of-service" data-i18n="cmpDetail.linkTermsOfService">Terms of Service</a>
+        </div>
+      </div>
+
+      <p style="margin-top:1.25rem;">
+        <a class="btn" href="../../products.html">Back to products</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">&copy; <span data-i18n="footer.year">2026</span> <span data-i18n="brand">robinsoft</span></div>
+  </footer>
+
+  <script>
+    document.addEventListener('includesLoaded', function(){
+      const sel = document.getElementById('langSelect');
+      if(!sel) return;
+      const cur = window.i18n && window.i18n.currentLang ? window.i18n.currentLang : 'en';
+      sel.value = cur;
+      sel.addEventListener('change', function(){
+        const v = sel.value;
+        window.i18n && window.i18n.setLang && window.i18n.setLang(v);
+      });
+    });
+  </script>
+</body>
+</html>

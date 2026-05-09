@@ -7,5 +7,22 @@
   "footer": {"year":"2026","suffix":"CreationUnion"},
   "products": {"title":"Produits - robinsoft","heading":"Nos produits","more":"Plus de produits","more":{"p":"Nous travaillons sur d'autres produits, restez à l'écoute."}},
   "product": {"cmp": {"title":"CloudMediaPlayer","p":"CloudMediaPlayer est un lecteur multimédia basé sur le cloud qui prend en charge le streaming, la gestion des listes de lecture et la synchronisation entre appareils."},"status":"Statut : Publié"},
+  "cmpDetail": {
+    "pageTitle": "CloudMediaPlayer - robinsoft",
+    "slogan": "Lecture et gestion multimédias dans le cloud pour les utilisateurs modernes.",
+    "intro1": "CloudMediaPlayer est le produit phare de robinsoft. Il réunit la lecture multimédia, la gestion des listes de lecture et l'accès multi-appareils dans une expérience fluide.",
+    "intro2": "Cette page reprend la même bannière, la même typographie et la même mise en page que le reste du site, et donne un accès rapide aux pages Google Sites associées ci-dessous.",
+    "audiencesTitle": "Public cible",
+    "audiences": "Les familles multigénérationnelles et les enfants adultes vivant avec des parents âgés ; les petits commerçants qui utilisent des écrans pour l'affichage numérique ; et les décorateurs écoresponsables qui réutilisent de vieux appareils comme cadres numériques pour embellir leur intérieur.",
+    "valueTitle": "Valeur d'usage",
+    "value1": "CloudMediaPlayer redonne vie aux anciens appareils en optimisant les performances pour le matériel peu puissant.",
+    "value2": "Il crée de la valeur grâce à l'agrégation photo multi-cloud, transformant les tablettes inutilisées en hubs familiaux dynamiques. Conforme aux standards de qualité Google Play, il offre une UX stable, efficace et utile.",
+    "linksTitle": "Liens associés",
+    "linkPrivacyPolicy": "Politique de confidentialité",
+    "linkCopyrightNotice": "Mention de copyright",
+    "linkPaymentPolicy": "Politique de paiement",
+    "linkHelpCenter": "Centre d'aide",
+    "linkTermsOfService": "Conditions d'utilisation"
+  },
   "about": {"title":"À propos de robinsoft","heading":"À propos de nous","p":"robinsoft est une équipe de développement axée sur les services multimédias et cloud. Notre objectif est de fournir des applications stables, simples et puissantes aux utilisateurs.","contact":"Contact","contact": {"value":"<em>contact@robinsoft.example</em>"}}
 }

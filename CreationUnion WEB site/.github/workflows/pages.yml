@@ -1,0 +1,71 @@
+name: Deploy static site to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Build static site
+        shell: pwsh
+        run: |
+          $source = Join-Path $env:GITHUB_WORKSPACE 'src/main/webapp'
+          $output = Join-Path $env:GITHUB_WORKSPACE 'site'
+
+          if (Test-Path $output) {
+            Remove-Item $output -Recurse -Force
+          }
+
+          New-Item -ItemType Directory -Path $output | Out-Null
+
+          foreach ($file in @('index.html', 'about.html', 'products.html')) {
+            Copy-Item (Join-Path $source $file) $output -Force
+          }
+
+          foreach ($folder in @('css', 'i18n', 'images', 'js', 'partials', 'products')) {
+            Copy-Item (Join-Path $source $folder) (Join-Path $output $folder) -Recurse -Force
+          }
+
+          foreach ($folder in @('WEB-INF', 'META-INF')) {
+            $path = Join-Path $output $folder
+            if (Test-Path $path) {
+              Remove-Item $path -Recurse -Force
+            }
+          }
+
+          New-Item -ItemType File -Path (Join-Path $output '.nojekyll') | Out-Null
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

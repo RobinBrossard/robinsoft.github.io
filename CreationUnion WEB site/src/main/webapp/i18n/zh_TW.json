@@ -7,5 +7,22 @@
   "footer": {"year":"2026","suffix":"CreationUnion"},
   "products": {"title":"產品 - robinsoft","heading":"我們的產品","more":"更多產品","more":{"p":"我們正在開發更多產品，敬請期待。"}},
   "product": {"cmp": {"title":"CloudMediaPlayer","p":"CloudMediaPlayer 是一款基於雲端的多媒體播放和管理工具，支援線上串流、播放清單管理與跨裝置同步。"},"status":"狀態：已發布"},
+  "cmpDetail": {
+    "pageTitle": "CloudMediaPlayer - robinsoft",
+    "slogan": "面向現代使用者的雲端媒體播放與管理。",
+    "intro1": "CloudMediaPlayer 是 robinsoft 的旗艦產品，將媒體播放、播放清單管理與跨裝置存取整合為一體，提供流暢一致的體驗。",
+    "intro2": "本頁面沿用了網站統一的橫幅、字體與版面風格，並提供下方相關 Google Sites 頁面入口。",
+    "audiencesTitle": "面向客戶群體",
+    "audiences": "面向與年長父母共同生活的多代家庭與成年子女；使用螢幕進行數位看板展示的小型企業主；以及將舊設備改造成數位相框、以提升居住環境的環保家居裝飾愛好者。",
+    "valueTitle": "應用價值",
+    "value1": "CloudMediaPlayer 透過針對低階硬體最佳化效能，讓舊設備重新煥發生命力。",
+    "value2": "它透過多雲相簿聚合創造價值，將閒置平板變成充滿活力的家庭中樞。遵循 Google Play 品質標準，提供穩定、高效且有明確目的的 UX。",
+    "linksTitle": "相關連結",
+    "linkPrivacyPolicy": "隱私政策",
+    "linkCopyrightNotice": "版權聲明",
+    "linkPaymentPolicy": "付款政策",
+    "linkHelpCenter": "說明中心",
+    "linkTermsOfService": "服務條款"
+  },
   "about": {"title":"關於 robinsoft","heading":"關於我們","p":"robinsoft 是一個專注於多媒體和雲端服務的開發團隊。我們的目標是為使用者提供穩定、簡單且功能強大的應用。","contact":"聯絡方式","contact": {"value":"<em>contact@robinsoft.example</em>"}}
 }
