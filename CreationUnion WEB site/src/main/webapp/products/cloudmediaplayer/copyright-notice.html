@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>
+    window.i18n = window.i18n || {};
+    window.i18n.pageTitleKey = 'policyCopyright.pageTitle';
+  </script>
+  <title>Copyright Notice - CloudMediaPlayer</title>
+  <link rel="stylesheet" href="../../css/style.css">
+  <script src="../../js/i18n.js" defer></script>
+  <script src="../../js/include.js" defer></script>
+</head>
+<body class="policy-page">
+  <div data-include="../../partials/header.html"></div>
+
+  <main class="container">
+    <section class="policy-shell">
+      <div class="policy-hero">
+        <span class="policy-badge">CloudMediaPlayer • Copyright Notice</span>
+        <h1>Copyright Notice &amp; Trademark Disclaimer</h1>
+        <p>Last Updated: December 10, 2025</p>
+        <p>This page explains ownership of the App, the limited use of third-party trademarks, and how we handle user content and open source licenses.</p>
+      </div>
+
+      <div class="policy-content">
+        <div class="policy-summary" aria-label="Copyright notice summary">
+          <div class="summary-card"><strong>Our App</strong> is protected by copyright law and international treaties.</div>
+          <div class="summary-card"><strong>Trademarks</strong> are used only to describe compatibility and are not endorsements.</div>
+          <div class="summary-card"><strong>Your content</strong> remains your property when accessed through the App.</div>
+        </div>
+
+        <div class="policy-link-row policy-footer-links" aria-label="Quick links">
+          <a href="privacy-policy.html">Privacy Policy</a>
+          <a href="payment-policy.html">Payment Policy</a>
+          <a href="help-center.html">Help Center</a>
+          <a href="terms-of-service.html">Terms of Service</a>
+        </div>
+
+        <section class="policy-section">
+          <h2>1. App Copyright</h2>
+          <p><strong>Copyright © 2025 CloudMediaPlayer.</strong> All rights reserved.</p>
+          <p>The source code, design, graphics, user interface, and underlying technology of this application are the intellectual property of the developer and are protected by applicable copyright laws and international treaties.</p>
+          <div class="policy-callout">
+            Unauthorized reproduction, reverse engineering, decompilation, or distribution of the software, in whole or in part, is strictly prohibited and may result in severe civil and criminal penalties.
+          </div>
+        </section>
+
+        <section class="policy-section">
+          <h2>2. Third-Party Trademarks</h2>
+          <p>This application integrates with third-party cloud storage services to provide media playback functionality. The use of third-party trademarks, logos, and brand names is for descriptive and identification purposes only.</p>
+          <table class="policy-table" aria-label="Third-party trademarks">
+            <thead>
+              <tr><th>Brand</th><th>Trademark statement</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Google Drive™</td><td>Trademark of Google LLC.</td></tr>
+              <tr><td>Microsoft OneDrive</td><td>Trademark of Microsoft Corporation.</td></tr>
+              <tr><td>Dropbox</td><td>Trademark of Dropbox, Inc.</td></tr>
+              <tr><td>Baidu Netdisk</td><td>Trademark of Baidu, Inc.</td></tr>
+            </tbody>
+          </table>
+          <p class="policy-note"><strong>Disclaimer of affiliation:</strong> CloudMediaPlayer 2025 is an independent application developed by RobinSoft. It is not affiliated with, endorsed by, sponsored by, or associated with the companies listed above.</p>
+        </section>
+
+        <section class="policy-section">
+          <h2>3. Open Source Licenses</h2>
+          <p>This software utilizes various open-source libraries and components to enhance functionality. We acknowledge and are grateful to the authors and contributors of these projects.</p>
+          <p>The usage of these libraries is in strict compliance with their respective licenses, such as Apache License 2.0 and MIT License.</p>
+        </section>
+
+        <section class="policy-section">
+          <h2>4. User Content Ownership</h2>
+          <p>CloudMediaPlayer 2025 acts solely as a tool for playing and managing media. We do not claim ownership of any media files accessed, streamed, or synchronized through this application.</p>
+          <div class="policy-callout">
+            All files stored on your local device or linked cloud storage accounts remain your sole property and responsibility.
+          </div>
+        </section>
+
+        <section class="policy-section">
+          <h2>5. Contact Us</h2>
+          <p>If you believe that any content or material within this application infringes upon your copyright or trademark rights, please contact us immediately for resolution.</p>
+          <p>Email: <strong>robinsoft.test01@gmail.com</strong></p>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">&copy; <span data-i18n="footer.year">2026</span> <span data-i18n="brand">robinsoft</span> — <span data-i18n="footer.suffix">CreationUnion</span></div>
+  </footer>
+
+  <script>
+    document.addEventListener('includesLoaded', function(){
+      const sel = document.getElementById('langSelect');
+      if(!sel) return;
+      const cur = window.i18n && window.i18n.currentLang ? window.i18n.currentLang : 'en';
+      sel.value = cur;
+      sel.addEventListener('change', function(){
+        const v = sel.value;
+        window.i18n && window.i18n.setLang && window.i18n.setLang(v);
+      });
+    });
+  </script>
+</body>
+</html>

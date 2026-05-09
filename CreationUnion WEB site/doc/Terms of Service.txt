@@ -1,0 +1,26 @@
+Terms of Service
+Effective Date: May 8, 2026
+Welcome to CloudMediaPlayer (hereinafter referred to as "the Application"). These Terms of Service outline the rules and legal responsibilities governing your use of the Application.
+1. Description of Service
+The Application is a multimedia playback and management tool that allows users to connect their own third-party cloud storage accounts, such as Google Drive, OneDrive, Dropbox, and Baidu Netdisk.
+The Application uses official APIs to scan user-authorized directories and synchronize media resources (videos, images, and audio) to a local cache for playback.
+2. Accounts and Authorization
+Third-Party Accounts: You understand and agree that the Application acts only as a technical tool to access your third-party cloud accounts. You must ensure you have the legal right to use these accounts.
+Scope of Permissions: Permissions requested by the Application (e.g., .../auth/drive) are used solely to scan media lists, read metadata, and download files to a local private cache directory.
+User Responsibility: You assume full legal responsibility for all content accessed or played through the Application.
+3. Data Usage and Privacy
+Local Processing: All media data downloaded by the Application is stored only in your device's local cache to improve playback performance and enable offline access.
+Non-Upload Principle: The Application will never upload your cloud files, metadata, or personal login credentials to any third-party servers.
+Cache Management: The Application provides an automatic cleanup mechanism (e.g., triggered when reaching 95% storage capacity), and users can also manually clear the local cache.
+4. Intellectual Property
+The Application is developed and owned by Robin Wuzheng.
+The copyright of the media content accessed through the Application remains with the respective content owners.
+5. Disclaimer
+Service Availability: The Application is not liable for synchronization failures caused by third-party cloud API restrictions or network fluctuations (e.g., 403 Access Denied or rate limits).
+Content Risk: The Application does not review or control the content in your cloud drives. Any consequences resulting from playing illegal or corrupted files (including but not limited to device OOM or crashes) are the sole responsibility of the user.
+6. Changes to Terms
+We reserve the right to modify these terms at any time. Significant changes will be notified via in-app announcements or website updates.
+7. Contact Us
+If you have any questions regarding these terms, please contact the developer:
+Email: robinsoft.test01@gmail.com
+Developer Website: https://sites.google.com/view/cloudmediaplayer/

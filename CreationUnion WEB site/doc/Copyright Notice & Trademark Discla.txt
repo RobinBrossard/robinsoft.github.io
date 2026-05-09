@@ -1,0 +1,19 @@
+Copyright Notice & Trademark Disclaimer
+Last Updated: December 10, 2025
+1. App Copyright
+Copyright © 2025 CloudMediaPlayer. All rights reserved.
+The source code, design, graphics, user interface, and underlying technology of this application are the intellectual property of the developer and are protected by applicable copyright laws and international treaties. Unauthorized reproduction, reverse engineering, decompilation, or distribution of this software, in whole or in part, is strictly prohibited and may result in severe civil and criminal penalties.
+2. Third-Party Trademarks
+This application integrates with third-party cloud storage services to provide media playback functionality. The use of third-party trademarks, logos, and brand names within this app is for descriptive and identification purposes only (Nominative Fair Use), solely to indicate the application's compatibility with these services.
+Google Drive™ is a trademark of Google LLC.
+Microsoft OneDrive is a trademark of Microsoft Corporation.
+Dropbox is a trademark of Dropbox, Inc.
+Baidu Netdisk is a trademark of Baidu, Inc.
+Disclaimer of Affiliation: CloudMediaPlayer 2025 is an independent application developed by RobinSoft. It is NOT affiliated with, endorsed by, sponsored by, or associated with Google LLC, Microsoft Corporation, Dropbox, Inc., Baidu, Inc., or any of their subsidiaries or affiliates.
+3. Open Source Licenses
+This software utilizes various open-source libraries and components to enhance functionality. We acknowledge and are grateful to the authors and contributors of these projects. The usage of these libraries is in strict compliance with their respective licenses (such as Apache License 2.0, MIT License, etc.).
+4. User Content Ownership
+CloudMediaPlayer 2025 acts solely as a tool for playing and managing media. We do not claim ownership of any media files (photos, videos, audio, documents) accessed, streamed, or synchronized through this application. All files stored on your local device or linked cloud storage accounts remain your sole property and responsibility.
+5. Contact Us
+We respect the intellectual property rights of others. If you believe that any content or material within this application infringes upon your copyright or trademark rights, please contact us immediately for resolution.
+Email: robinsoft.test01@gmail.com

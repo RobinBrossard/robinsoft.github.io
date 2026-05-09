@@ -1,0 +1,39 @@
+Privacy Policy for CloudMediaPlayer
+Effective Date: December 10, 2025
+This Privacy Policy describes how CloudMediaPlayer 2025 ("we", "our", or "us") collects, uses, and discloses your information when you use our mobile application (the "App").
+We are committed to protecting your privacy. This App is designed as a local and cloud media player tool. We do not store your personal files, photos, videos, or cloud drive login credentials on our own servers.
+1. Information We Collect
+We collect minimal data necessary to provide the App's functionality and monetization features.
+1.1 Information You Provide
+Account Information: If you choose to log in (e.g., Local Account), this information is stored locally on your device.
+Cloud Drive Credentials: When you link third-party cloud services (Google Drive, OneDrive, Dropbox, Baidu Netdisk), the App receives an authentication token (OAuth token). This token is stored securely on your device only to allow the App to access your media files for playback. We do not have access to your passwords.
+1.2 Information Collected Automatically
+Device Information: We may collect device model, operating system version, and unique device identifiers (Advertising ID) for app functionality and advertising purposes.
+Crash Logs & Performance Data: We may collect anonymous crash reports and performance data to help us fix bugs and improve stability.
+2. How We Use Your Information
+To Provide Features: To play videos and display images from your local storage or linked cloud drives.
+To Maintain Settings: To save your playback progress, preferences, and playlists locally.
+For Advertising: To display advertisements via Google AdMob.
+For Payments: To process subscriptions and one-time purchases via Google Play Billing.
+3. Permissions We Request
+The App requires specific permissions to function:
+Storage (Read/Write): Required to access and play media files stored on your device.
+Internet Access: Required to stream media from your cloud drives and to load advertisements.
+Google Play Billing: Required to process VIP membership purchases.
+4. Third-Party Services
+We use third-party services that may collect information used to identify you. Please review their privacy policies:
+Google AdMob: Used for displaying ads. Google AdMob Privacy Policy
+Google Play Services: Used for app core functionality.
+Cloud Providers (Google Drive, OneDrive, Dropbox, Baidu): The App acts as a client to these services. Your interaction with them is governed by their respective privacy policies.
+5. Data Safety & Retention
+Local Storage: Your media files, thumbnails, and cloud drive tokens are stored locally on your device. Clearing the App's data or uninstalling the App will remove this data.
+No File Uploads: We do not upload your personal videos, photos, or file contents to any external server owned by us.
+6. Subscriptions & Payments
+All financial transactions (VIP subscriptions, Lifetime purchases) are handled directly by Google Play. We do not collect or store your credit card information.
+7. Children’s Privacy
+These Services do not address anyone under the age of 13. We do not knowingly collect personally identifiable information from children under 13.
+8. Changes to This Privacy Policy
+We may update our Privacy Policy from time to time. You are advised to review this page periodically for any changes.
+9. Contact Us
+If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at:
+Email: robinsoft.test01@gmail.com 

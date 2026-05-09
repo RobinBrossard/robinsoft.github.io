@@ -1,0 +1,55 @@
+CloudMediaPlayer User Guide
+Overview
+CloudMediaPlayer is an all-in-one media player for Android designed to aggregate your favorite cloud storage services. Seamlessly stream and manage content from Google Drive, OneDrive, Dropbox, and Baidu Netdisk in one place.
+Breathe New Life into Old Devices: Optimized for Android 7.0+. Turn your retired tablets or phones into dedicated high-tech photo frames.
+The Ultimate Family Hub: Perfect for families to share memories. Multiple contributors can upload to different cloud accounts, while parents enjoy a single, unified slideshow of the whole family.
+
+Key Features
+Cloud Aggregation: VIP members can link multiple accounts from various providers. Free users enjoy one cloud connection at no cost.
+Offline Ready: Download and sync cloud media to local cache. Enjoy smooth playback while saving your data and bandwidth.
+Flexible VIP Plans: Manage subscriptions via Google Play. One VIP account covers up to 3 devices.
+Smart Hardware Detection: Automatically filters out file types that your specific device hardware cannot handle, ensuring a crash-free experience.
+Privacy First: We only access media files in folders you designate. Your documents and personal files remain strictly private.
+
+Getting Started
+1. Setup
+Download CloudMediaPlayer from the Google Play Store.
+Sign In: Use your Google Account for full VIP features.
+Guest Mode: Tap "Skip" to use the app without an account (Note: VIP features and Google Play billing are unavailable in this mode).
+2. Linking Cloud Drives
+Navigate to "Drive Management."
+Tap "Link Drive" and follow the prompts to authorize your accounts.
+Pro Tip: VIP users can add multiple accounts of the same service (e.g., two different Google Drive accounts).
+3. Playback & Customization
+Browse your cloud folders in the "Playback" tab.
+Modes: Choose between Sequential, Random, or Favorites First.
+Display Settings:
+Fit: Shows the entire image (may leave black bars).
+Fill: Expands the image to cover the full screen (crops from the center).
+Schedule: Set a "Sleep/Wake" timer (e.g., Auto-play from 8 AM to 10 PM).
+
+Interface Breakdown
+Main Navigation
+The bottom navigation bar provides quick access to:
+Account: Profile, VIP status, and Billing.
+System Settings: Cache and file filters.
+Drive Management: Add or reorder your cloud sources.
+Playback Settings: Slideshow and display preferences.
+Cache & Storage
+Cache Limit: Set a maximum storage cap (e.g., 512MB) to prevent the app from filling up your device.
+Sync on Wi-Fi Only: Keep this toggled ON to avoid unexpected cellular data charges.
+The Full-Screen Player
+Interactive Controls: Tap once to show the control bar. You can Like (👍), Dislike (👎), Pause, or Skip.
+Auto-Hide: The UI will automatically vanish after a few seconds of inactivity for an immersive viewing experience.
+
+Troubleshooting (FAQ)
+Q: Why isn't my VIP status showing up? A: Ensure you are logged into the same Google Play account used for the purchase.
+Q: Why are some files missing from the app? A: Check your "Ignore Files" settings in System Settings. The app may also hide files that exceed your size limits or use formats your older device cannot decode.
+Q: Why does the image quality seem lower than the original? A: On legacy devices, the app automatically optimizes image resolution to ensure the slideshow runs smoothly without lagging or crashing.
+
+Support & Privacy
+Data Safety: We do not read or collect your documents. Only media files in selected directories are indexed.
+Need Help? Contact our support team at robinsoft.test01@gmail.com.
+
+Version 1.0 | © 2026 CloudMediaPlayer Team
+

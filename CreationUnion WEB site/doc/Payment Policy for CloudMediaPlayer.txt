@@ -1,0 +1,41 @@
+Payment Policy for CloudMediaPlayer
+Last Updated: December 10, 2025
+This Payment Policy describes the commercial terms, subscription plans, and refund policies for CloudMediaPlayer 2025 ("the App"). By purchasing a subscription or a lifetime license, you agree to the terms below.
+1. Free vs. Paid Services
+1.1 Free Version The App is free to download and use. The free version is supported by advertisements (via Google AdMob). Users can access basic playback features but will encounter banner, interstitial, or rewarded video ads during usage.
+1.2 VIP Membership (Premium) We offer a "VIP Membership" that unlocks the full potential of the App. VIP benefits include:
+Ad-Free Experience: Removal of all banner, interstitial, and video advertisements.
+Unlimited Cloud Sync: Unrestricted access to sync files from Google Drive, OneDrive, Dropbox, and Baidu Netdisk.
+Priority Support: Faster response times for technical inquiries.
+2. Pricing Models
+We offer flexible purchasing options processed exclusively through Google Play Billing:
+Monthly Subscription: A recurring payment charged every month.
+Yearly Subscription: A recurring payment charged every year (offering a discounted rate compared to monthly).
+Lifetime License: A one-time upfront payment. This is a non-consumable product that grants you permanent access to VIP features on the account used for purchase. It does not expire.
+Note on Device Limits: VIP features are available on up to 3 devices per purchase. If you log in to a 4th device, the earliest logged-in device will be automatically disconnected. If you need to use VIP features on more than 3 devices simultaneously, we recommend purchasing through additional Google Play accounts.
+Prices are displayed locally in the App based on your region and currency settings in the Google Play Store.
+3. Payment Processing & Security
+We Do Not Store Payment Data: CloudMediaPlayer 2025 does not collect, transmit, or store your credit card details or banking information.
+Google Play Handling: All transactions are processed securely by Google Play. Your payment relationship is directly with Google.
+4. Automatic Renewal (For Subscriptions)
+Auto-Renewal: Subscriptions automatically renew unless auto-renew is turned off at least 24 hours before the end of the current billing period.
+Charges: Your account will be charged for renewal within 24 hours prior to the end of the current period at the original subscription price.
+Management: You can manage your subscriptions and turn off auto-renewal by going to your Google Play Store Account Settings after purchase.
+5. Free Trials
+We may offer a free trial period for new users (e.g., 3 days or 3 months, as specified in the offer).
+If you do not cancel the trial at least 24 hours before it expires, it will automatically convert into a paid subscription, and your account will be charged.
+Any unused portion of a free trial period will be forfeited when you purchase a subscription.
+6. Cancellation Policy
+How to Cancel: Uninstalling the App does not cancel your subscription. To cancel, you must:
+Open the Google Play Store app.
+Tap your profile icon -> Payments & subscriptions -> Subscriptions.
+Select CloudMediaPlayer.
+Tap Cancel subscription.
+Effect of Cancellation: If you cancel, your subscription will stop at the end of the current billing cycle. You will retain access to VIP features until that date.
+7. Refund Policy
+Since all payments are handled by Google, we adhere to Google Play's refund policies.
+Within 48 Hours: You may be able to request a refund directly through the Google Play website.
+After 48 Hours: Refunds are generally not provided for partially used subscription periods. However, if you experience a critical technical issue that we cannot resolve, please contact our support team with your Order ID (beginning with GPA.).
+8. Contact Us
+If you have any questions regarding payments, refunds, or subscription management, please contact us at:
+Email: robinsoft.test01@gmail.com
