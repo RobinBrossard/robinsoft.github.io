@@ -5,8 +5,8 @@
   "hero": {"title":"欢迎来到 robinsoft","p1":"我们是 robinsoft 开发团队，专注于多媒体和云端解决方案。目前的产品包括 <strong>CloudMediaPlayer</strong>，更多产品将陆续发布。","button":"查看产品"},
   "mission": {"title":"我们的使命","p":"打造简单、可靠、富有创意的软件，帮助用户更好地管理和播放多媒体内容。"},
   "footer": {"year":"2026","suffix":"CreationUnion"},
-  "products": {"title":"产品 - robinsoft","heading":"我们的产品","more":"More...","more":{"p":"More..."}},
-  "product": {"cmp": {"title":"CloudMediaPlayer","p":"CloudMediaPlayer 是一款基于云的多媒体播放和管理工具，支持在线流式播放、播放列表管理和跨设备同步。"},"status":"状态：已发布"},
+  "products": {"title":"产品 - robinsoft","heading":"我们的产品","moreTitle":"【其它产品】","moreDesc":"我们正在开发其它使生活更美好的产品。"},
+  "product": {"cmp": {"title":"CloudMediaPlayer","p":"CloudMediaPlayer 是一款基于云的多媒体播放和管理工具，支持在线流式播放、播放列表管理和跨设备同步。"},"status":"状态：已发布","viewDetails":"查看详情"},
   "cmpDetail": {
     "pageTitle": "CloudMediaPlayer - robinsoft",
     "slogan": "面向现代用户的云端媒体播放与管理。",
@@ -24,5 +24,5 @@
     "linkHelpCenter": "帮助中心",
     "linkTermsOfService": "服务条款"
   },
-  "about": {"title":"关于 robinsoft","heading":"关于我们","p":"robinsoft 是一个专注于多媒体和云服务的开发团队。我们的目标是为用户提供稳定、简单且功能强大的应用。","contactLabel":"【联系方式】","contactValue":"<em>robinsoft.test01@gmail.com</em>"}
+  "about": {"title":"关于 robinsoft","heading":"关于我们","p":"robinsoft 是一个专注于多媒体和云服务的开发团队。我们的目标是为用户提供稳定、简单且功能强大的应用。","contactLine":"<strong>【联系方式】</strong> <em>robinsoft.test01@gmail.com</em>"}
 }

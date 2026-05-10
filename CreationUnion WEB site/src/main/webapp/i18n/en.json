@@ -5,8 +5,8 @@
   "hero": {"title":"Welcome to robinsoft","p1":"We are the robinsoft development team, focusing on multimedia and cloud solutions. Our current product includes <strong>CloudMediaPlayer</strong>, and more products will be released.","button":"View products"},
   "mission": {"title":"Our mission","p":"Build simple, reliable and creative software to help users better manage and play multimedia content."},
   "footer": {"year":"2026","suffix":"CreationUnion"},
-  "products": {"title":"Products - robinsoft","heading":"Our products","more":"More...","more":{"p":"More..."}},
-  "product": {"cmp": {"title":"CloudMediaPlayer","p":"CloudMediaPlayer is a cloud-based media player and manager that supports streaming, playlist management and cross-device sync."},"status":"Status: Released"},
+  "products": {"title":"Products - robinsoft","heading":"Our products","moreTitle":"More products","moreDesc":"We are developing more products that make life better."},
+  "product": {"cmp": {"title":"CloudMediaPlayer","p":"CloudMediaPlayer is a cloud-based media player and manager that supports streaming, playlist management and cross-device sync."},"status":"Status: Released","viewDetails":"View details"},
   "cmpDetail": {
     "pageTitle": "CloudMediaPlayer - robinsoft",
     "slogan": "Cloud-based media playback and management for modern users.",
@@ -24,5 +24,5 @@
     "linkHelpCenter": "Help Center",
     "linkTermsOfService": "Terms of Service"
   },
-  "about": {"title":"About robinsoft","heading":"About us","p":"robinsoft is a development team focused on multimedia and cloud services. Our goal is to deliver stable, simple and powerful applications to users.","contactLabel":"Contact","contactValue":"<em>robinsoft.test01@gmail.com</em>"}
+  "about": {"title":"About robinsoft","heading":"About us","p":"robinsoft is a development team focused on multimedia and cloud services. Our goal is to deliver stable, simple and powerful applications to users.","contactLine":"<strong>Contact:</strong> <em>robinsoft.test01@gmail.com</em>"}
 }
