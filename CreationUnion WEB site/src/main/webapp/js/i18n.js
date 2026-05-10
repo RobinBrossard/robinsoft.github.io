@@ -7,6 +7,13 @@
 (function(){
   const DEFAULT = 'en';
   const SUPPORTED = ['en','zh_CN','zh_TW','fr'];
+  const REDIRECTABLE_STEMS = new Set([
+    'copyright-notice',
+    'help-center',
+    'payment-policy',
+    'privacy-policy',
+    'terms-of-service'
+  ]);
   function normalizeLang(l){
     if(!l) return DEFAULT;
     l = l.replace('-', '_');
@@ -72,11 +79,44 @@
     });
   }
 
+  function getDocInfo(){
+    const path = (window.location && window.location.pathname) ? window.location.pathname : '';
+    const m = path.match(/^(.*\/)?([^/]+?)(?:\.(zh_CN|zh_TW|fr))?\.html$/i);
+    if(!m) return null;
+    return {
+      dir: m[1] || '',
+      stem: m[2],
+      suffix: m[3] || null,
+      path: path
+    };
+  }
+
   function getLangFromUrl(){
     try{
       const p = new URLSearchParams(window.location.search);
       return p.get('lang');
     }catch(e){return null}
+  }
+
+  function getLangFromPath(){
+    const info = getDocInfo();
+    return info && info.suffix ? info.suffix : null;
+  }
+
+  function getLocalizedPath(lang){
+    const info = getDocInfo();
+    if(!info || !REDIRECTABLE_STEMS.has(info.stem)) return null;
+    const normalized = normalizeLang(lang);
+    const file = normalized === DEFAULT ? info.stem + '.html' : info.stem + '.' + normalized + '.html';
+    return (info.dir || '/') + file;
+  }
+
+  function getInitialLang(){
+    const urlLang = getLangFromUrl();
+    const pathLang = getLangFromPath();
+    const stored = localStorage.getItem('site_lang');
+    const nav = navigator.language || navigator.userLanguage;
+    return urlLang || pathLang || stored || nav || DEFAULT;
   }
 
   async function setLang(lang){
@@ -94,14 +134,19 @@
     const titleKey = (window.i18n && window.i18n.pageTitleKey) ? window.i18n.pageTitleKey : 'title';
     const titleValue = titleKey === 'title' ? (res && res.title) : resolveKey(res, titleKey);
     if(titleValue !== undefined) document.title = titleValue;
+
+    const targetPath = getLocalizedPath(lang);
+    if(targetPath && targetPath !== window.location.pathname){
+      const search = window.location.search || '';
+      const hash = window.location.hash || '';
+      window.location.href = targetPath + search + hash;
+      return;
+    }
   }
 
   // init
   document.addEventListener('DOMContentLoaded', function(){
-    const urlLang = getLangFromUrl();
-    const stored = localStorage.getItem('site_lang');
-    const nav = navigator.language || navigator.userLanguage;
-    const pick = urlLang || stored || nav || DEFAULT;
+    const pick = getInitialLang();
     setLang(pick);
     // expose setter
     window.i18n = window.i18n || {};
