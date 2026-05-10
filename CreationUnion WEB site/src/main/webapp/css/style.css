@@ -90,6 +90,7 @@ body > main{flex:1}
 @media (orientation: landscape){
   .site-banner{
     background-image:url('../images/banner.png');
+    background-size:100% 100%;
     height:clamp(120px,10vw,200px);
   }
 }
