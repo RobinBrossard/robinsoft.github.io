@@ -13,8 +13,23 @@ function applyNavPrefixes() {
   });
 }
 
+function highlightCurrentNav() {
+  const currentPage = (window.location.pathname.split('/').pop() || 'index.html').toLowerCase();
+  document.querySelectorAll('.main-nav a[data-nav-path]').forEach(function(link) {
+    const target = (link.getAttribute('data-nav-path') || '').toLowerCase();
+    const isActive = target === currentPage;
+    link.classList.toggle('is-active', isActive);
+    if (isActive) {
+      link.setAttribute('aria-current', 'page');
+    } else {
+      link.removeAttribute('aria-current');
+    }
+  });
+}
+
 function notifyIncludesLoaded() {
   applyNavPrefixes();
+  highlightCurrentNav();
   document.dispatchEvent(new Event('includesLoaded'));
   // After includesLoaded, try to trigger i18n translation if available.
   if (window.i18n) {
