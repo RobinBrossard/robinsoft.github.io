@@ -71,25 +71,26 @@ body > main{flex:1}
 .site-header{
   color:#fff;
   box-shadow:0 10px 24px rgba(16,36,72,0.12);
+  overflow:hidden;
 }
 .site-banner{
   background-color:#eef3fa;
   background-repeat:no-repeat;
   background-position:center center;
-  background-size:contain;
+  background-size:cover;
   background-image:url('../images/banner.png');
-  aspect-ratio:1920 / 200;
+  height:clamp(96px,9vw,160px);
 }
 @media (orientation: portrait){
   .site-banner{
     background-image:url('../images/banner-mobile.png');
-    aspect-ratio:1920 / 200;
+    height:clamp(82px,14vw,128px);
   }
 }
 @media (orientation: landscape){
   .site-banner{
     background-image:url('../images/banner.png');
-    aspect-ratio:1920 / 200;
+    height:clamp(88px,8vw,140px);
   }
 }
 .brand{
@@ -303,14 +304,16 @@ code{padding:0.12rem 0.3rem;border-radius:4px;background:#eef3ff;color:#173b6d}
 }
 @media (max-width:600px){
   .container{padding:1rem 0.85rem}
-  .site-nav-inner{flex-direction:column;align-items:stretch}
-  .nav-toggle{display:inline-flex;align-self:flex-start}
-  .site-nav-panel{display:none;flex-direction:column;align-items:stretch}
+  .site-nav-inner{flex-direction:row;align-items:center;flex-wrap:wrap}
+  .brand{width:100%;order:1}
+  .nav-toggle{display:inline-flex;align-self:auto;order:2}
+  .lang-switcher{order:3;margin-left:auto}
+  .site-nav-panel{display:none;flex-direction:column;align-items:stretch;order:4;width:100%}
   .site-nav-panel.is-open{display:flex}
   .main-nav{justify-content:flex-start}
   .main-nav a{width:100%;justify-content:flex-start}
-  .lang-switcher{align-self:flex-start;width:auto;margin-left:0}
-  .lang-select{width:100%;min-width:0}
+  .lang-switcher{align-self:center;width:auto;margin-left:auto}
+  .lang-select{width:auto;min-width:8.5rem}
   .hero{padding:1.5rem 0 0.9rem}
   .hero h2{font-size:clamp(1.45rem,7vw,2rem)}
   .product-list,.policy-grid{grid-template-columns:1fr}
