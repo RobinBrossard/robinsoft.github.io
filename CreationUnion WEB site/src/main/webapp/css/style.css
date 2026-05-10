@@ -19,6 +19,8 @@ html,body{
   color:var(--text);
   line-height:1.6;
 }
+*,*::before,*::after{box-sizing:border-box}
+img{max-width:100%;height:auto}
 body{
   min-height:100vh;
   display:flex;
@@ -86,6 +88,7 @@ body > main{flex:1}
   align-items:center;
   justify-content:space-between;
   gap:1rem;
+  flex-wrap:wrap;
   padding-top:0.85rem;
   padding-bottom:0.85rem;
 }
@@ -204,6 +207,8 @@ footer{padding:1rem 0;background:#eef3fa;color:#334155;border-top:1px solid var(
 .policy-card h3{margin-top:0}
 .policy-card ul,.policy-card ol{margin-bottom:0}
 .policy-table{width:100%;border-collapse:collapse;margin-top:0.75rem;overflow:hidden;border-radius:12px}
+.policy-table{display:block;overflow-x:auto;-webkit-overflow-scrolling:touch}
+.policy-table{min-width:640px}
 .policy-table th,.policy-table td{padding:0.85rem 0.9rem;border-bottom:1px solid #e6ecf8;text-align:left;vertical-align:top}
 .policy-table th{background:#f4f7ff;color:#15325f}
 .policy-link-row{display:flex;flex-wrap:wrap;gap:0.75rem;margin-top:1rem}
@@ -212,13 +217,35 @@ footer{padding:1rem 0;background:#eef3fa;color:#334155;border-top:1px solid var(
 .policy-footer-links{margin-top:1.5rem;padding-top:1.1rem;border-top:1px solid #e6ebf6}
 .policy-inline-kicker{display:inline-block;margin-bottom:0.4rem;font-size:0.86rem;font-weight:700;color:#0b57d0;text-transform:uppercase;letter-spacing:0.08em}
 code{padding:0.12rem 0.3rem;border-radius:4px;background:#eef3ff;color:#173b6d}
+@media (max-width:900px){
+  .site-nav-inner{align-items:flex-start}
+  .brand{width:100%}
+  .main-nav{width:100%;gap:0.45rem}
+  .lang-switcher{width:100%}
+  .lang-select{width:min(100%,18rem)}
+  .cmp-detail-header{align-items:flex-start}
+  .cmp-detail-links{grid-template-columns:repeat(auto-fit,minmax(160px,1fr))}
+  .policy-hero{padding:1.75rem 1.5rem 1.35rem}
+  .policy-content{padding:1.35rem 1.5rem 1.65rem}
+}
 @media (max-width:600px){
   .container{padding:1rem 0.85rem}
   .site-banner__inner{min-height:170px;padding-top:1.5rem;padding-bottom:1.15rem}
   .site-nav-inner{flex-direction:column;align-items:stretch}
   .main-nav{justify-content:flex-start}
+  .main-nav a{width:100%;justify-content:flex-start}
   .lang-switcher{align-self:flex-start}
   .lang-select{width:100%;min-width:0}
+  .hero{padding:1.5rem 0 0.9rem}
+  .hero h2{font-size:clamp(1.45rem,7vw,2rem)}
+  .product-list,.policy-grid{grid-template-columns:1fr}
+  .product-card,.cmp-detail,.policy-shell{border-radius:14px}
+  .cmp-detail-header{flex-direction:column}
+  .cmp-detail-header .cmp-logo{width:3rem;height:3rem;flex-basis:3rem}
+  .cmp-actions,.policy-link-row{flex-direction:column}
+  .cmp-action-link,.policy-link-row a,.btn{width:100%}
+  .cmp-embed-frame{height:60vh;min-height:420px}
   .policy-hero{padding:1.5rem 1.2rem 1.2rem}
   .policy-content{padding:1.2rem}
+  .policy-table{min-width:520px}
 }
