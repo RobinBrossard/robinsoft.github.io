@@ -77,20 +77,20 @@ body > main{flex:1}
   background-color:#eef3fa;
   background-repeat:no-repeat;
   background-position:center center;
-  background-size:cover;
+  background-size:auto 100%;
   background-image:url('../images/banner.png');
-  height:clamp(96px,9vw,160px);
+  height:clamp(120px,10vw,200px);
 }
 @media (orientation: portrait){
   .site-banner{
     background-image:url('../images/banner-mobile.png');
-    height:clamp(82px,14vw,128px);
+    height:clamp(120px,12vw,180px);
   }
 }
 @media (orientation: landscape){
   .site-banner{
     background-image:url('../images/banner.png');
-    height:clamp(88px,8vw,140px);
+    height:clamp(120px,10vw,200px);
   }
 }
 .brand{
