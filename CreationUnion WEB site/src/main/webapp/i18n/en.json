@@ -1,7 +1,7 @@
 {
   "title": "robinsoft — CreationUnion",
   "brand": "robinsoft",
-  "nav": {"home":"Home","products":"Products","about":"About"},
+  "nav": {"home":"Home","products":"Products","about":"About","menu":"Menu"},
   "hero": {"title":"Welcome to robinsoft","p1":"We are the robinsoft development team, focusing on multimedia and cloud solutions. Our current product includes <strong>CloudMediaPlayer</strong>, and more products will be released.","button":"View products"},
   "mission": {"title":"Our mission","p":"Build simple, reliable and creative software to help users better manage and play multimedia content."},
   "footer": {"year":"2026","suffix":"CreationUnion"},

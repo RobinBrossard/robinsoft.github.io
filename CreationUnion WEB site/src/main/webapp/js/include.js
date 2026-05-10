@@ -27,9 +27,39 @@ function highlightCurrentNav() {
   });
 }
 
+function setupMobileNav() {
+  const toggle = document.querySelector('[data-nav-toggle]');
+  const panel = document.querySelector('[data-nav-panel]');
+  if (!toggle || !panel) return;
+
+  function setOpen(open) {
+    toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+    panel.classList.toggle('is-open', open);
+  }
+
+  toggle.addEventListener('click', function() {
+    const isOpen = toggle.getAttribute('aria-expanded') === 'true';
+    setOpen(!isOpen);
+  });
+
+  panel.querySelectorAll('.main-nav a, .lang-select').forEach(function(el) {
+    el.addEventListener('click', function() {
+      if (window.innerWidth <= 600) setOpen(false);
+    });
+    el.addEventListener('change', function() {
+      if (window.innerWidth <= 600) setOpen(false);
+    });
+  });
+
+  window.addEventListener('resize', function() {
+    if (window.innerWidth > 600) setOpen(false);
+  }, { passive: true });
+}
+
 function notifyIncludesLoaded() {
   applyNavPrefixes();
   highlightCurrentNav();
+  setupMobileNav();
   document.dispatchEvent(new Event('includesLoaded'));
   // After includesLoaded, try to trigger i18n translation if available.
   if (window.i18n) {

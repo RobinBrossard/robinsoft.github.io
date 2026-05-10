@@ -1,7 +1,7 @@
 {
   "title": "robinsoft — CreationUnion",
   "brand": "robinsoft",
-  "nav": {"home":"首页","products":"产品","about":"关于"},
+  "nav": {"home":"首页","products":"产品","about":"关于","menu":"菜单"},
   "hero": {"title":"欢迎来到 robinsoft","p1":"我们是 robinsoft 开发团队，专注于多媒体和云端解决方案。目前的产品包括 <strong>CloudMediaPlayer</strong>，更多产品将陆续发布。","button":"查看产品"},
   "mission": {"title":"我们的使命","p":"打造简单、可靠、富有创意的软件，帮助用户更好地管理和播放多媒体内容。"},
   "footer": {"year":"2026","suffix":"CreationUnion"},

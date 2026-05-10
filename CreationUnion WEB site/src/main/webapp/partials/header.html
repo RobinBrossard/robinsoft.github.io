@@ -5,20 +5,26 @@
   <div class="site-nav-shell">
     <div class="container site-nav-inner">
       <span class="brand brand-link" data-i18n="brand">robinsoft</span>
-      <nav class="main-nav" aria-label="Primary navigation">
-        <a href="index.html" data-nav-path="index.html" data-i18n="nav.home">Home</a>
-        <a href="products.html" data-nav-path="products.html" data-i18n="nav.products">Products</a>
-        <a href="about.html" data-nav-path="about.html" data-i18n="nav.about">About</a>
-      </nav>
-      <label class="lang-switcher" for="langSelect">
-        <span class="sr-only">Language selector</span>
-        <select id="langSelect" class="lang-select" aria-label="Language selector">
-          <option value="en">English</option>
-          <option value="zh_CN">简体中文</option>
-          <option value="zh_TW">繁體中文</option>
-          <option value="fr">Français</option>
-        </select>
-      </label>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primaryNav" data-nav-toggle>
+        <span class="nav-toggle__icon" aria-hidden="true"><span></span></span>
+        <span data-i18n="nav.menu">Menu</span>
+      </button>
+      <div class="site-nav-panel" id="primaryNav" data-nav-panel>
+        <nav class="main-nav" aria-label="Primary navigation">
+          <a href="index.html" data-nav-path="index.html" data-i18n="nav.home">Home</a>
+          <a href="products.html" data-nav-path="products.html" data-i18n="nav.products">Products</a>
+          <a href="about.html" data-nav-path="about.html" data-i18n="nav.about">About</a>
+        </nav>
+        <label class="lang-switcher" for="langSelect">
+          <span class="sr-only">Language selector</span>
+          <select id="langSelect" class="lang-select" aria-label="Language selector">
+            <option value="en">English</option>
+            <option value="zh_CN">简体中文</option>
+            <option value="zh_TW">繁體中文</option>
+            <option value="fr">Français</option>
+          </select>
+        </label>
+      </div>
     </div>
   </div>
 </header>
