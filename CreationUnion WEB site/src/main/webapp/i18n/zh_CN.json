@@ -24,5 +24,5 @@
     "linkHelpCenter": "帮助中心",
     "linkTermsOfService": "服务条款"
   },
-  "about": {"title":"关于 robinsoft","heading":"关于我们","p":"robinsoft 是一个专注于多媒体和云服务的开发团队。我们的目标是为用户提供稳定、简单且功能强大的应用。","contact":"联系方式","contact": {"value":"<em>contact@robinsoft.example</em>"}}
+  "about": {"title":"关于 robinsoft","heading":"关于我们","p":"robinsoft 是一个专注于多媒体和云服务的开发团队。我们的目标是为用户提供稳定、简单且功能强大的应用。","contactLabel":"【联系方式】","contactValue":"<em>robinsoft.test01@gmail.com</em>"}
 }
