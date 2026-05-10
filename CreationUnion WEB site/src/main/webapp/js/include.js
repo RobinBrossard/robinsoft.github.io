@@ -42,11 +42,8 @@ function setupMobileNav() {
     setOpen(!isOpen);
   });
 
-  panel.querySelectorAll('.main-nav a, .lang-select').forEach(function(el) {
+  panel.querySelectorAll('.main-nav a').forEach(function(el) {
     el.addEventListener('click', function() {
-      if (window.innerWidth <= 600) setOpen(false);
-    });
-    el.addEventListener('change', function() {
       if (window.innerWidth <= 600) setOpen(false);
     });
   });
