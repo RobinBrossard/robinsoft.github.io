@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>
+    window.i18n = window.i18n || {};
+    window.i18n.pageTitleKey = 'policyCopyright.pageTitle';
+  </script>
+  <title>Avis de droit d'auteur - CloudMediaPlayer</title>
+  <link rel="stylesheet" href="../../css/style.css">
+  <script src="../../js/i18n.js" defer></script>
+  <script src="../../js/include.js" defer></script>
+</head>
+<body class="policy-page">
+  <div data-include="../../partials/header.html" data-nav-prefix="../../"></div>
+
+  <main class="container">
+    <section class="policy-shell">
+      <div class="policy-hero">
+        <span class="policy-badge">CloudMediaPlayer • Avis de droit d'auteur</span>
+        <h1>Avis de droit d'auteur et clause de non-affiliation aux marques</h1>
+        <p>Dernière mise à jour : 10 décembre 2025</p>
+        <p>Cette page explique la propriété de l'application, l'utilisation limitée des marques tierces, ainsi que la gestion du contenu utilisateur et des licences open source.</p>
+      </div>
+
+      <div class="policy-content">
+        <div class="policy-summary" aria-label="Résumé de l'avis de droit d'auteur">
+          <div class="summary-card"><strong>Notre application</strong> est protégée par le droit d'auteur et les traités internationaux.</div>
+          <div class="summary-card"><strong>Les marques</strong> sont utilisées uniquement pour décrire la compatibilité et ne constituent pas une approbation.</div>
+          <div class="summary-card"><strong>Votre contenu</strong> reste votre propriété lorsqu'il est consulté via l'application.</div>
+        </div>
+
+        <div class="policy-link-row policy-footer-links" aria-label="Liens rapides">
+          <a href="privacy-policy.fr.html">Politique de confidentialité</a>
+          <a href="payment-policy.fr.html">Politique de paiement</a>
+          <a href="help-center.fr.html">Centre d'aide</a>
+          <a href="terms-of-service.fr.html">Conditions d'utilisation</a>
+        </div>
+
+        <section class="policy-section">
+          <h2>1. Droit d'auteur de l'application</h2>
+          <p><strong>Copyright © 2025 CloudMediaPlayer.</strong> Tous droits réservés.</p>
+          <p>Le code source, la conception, les graphismes, l'interface utilisateur et la technologie sous-jacente de cette application sont la propriété intellectuelle du développeur et sont protégés par les lois applicables sur le droit d'auteur et les traités internationaux.</p>
+          <div class="policy-callout">
+            Toute reproduction, ingénierie inverse, décompilation ou distribution non autorisée du logiciel, en tout ou en partie, est strictement interdite et peut entraîner de lourdes sanctions civiles et pénales.
+          </div>
+        </section>
+
+        <section class="policy-section">
+          <h2>2. Marques tierces</h2>
+          <p>Cette application s'intègre à des services de stockage cloud tiers afin de fournir des fonctions de lecture multimédia. L'utilisation des marques, logos et noms de marque tiers se fait uniquement à des fins descriptives et d'identification.</p>
+          <table class="policy-table" aria-label="Marques tierces">
+            <thead>
+              <tr><th>Marque</th><th>Mentions relatives à la marque</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Google Drive™</td><td>Marque de Google LLC.</td></tr>
+              <tr><td>Microsoft OneDrive</td><td>Marque de Microsoft Corporation.</td></tr>
+              <tr><td>Dropbox</td><td>Marque de Dropbox, Inc.</td></tr>
+              <tr><td>Baidu Netdisk</td><td>Marque de Baidu, Inc.</td></tr>
+            </tbody>
+          </table>
+          <p class="policy-note"><strong>Clause de non-affiliation :</strong> CloudMediaPlayer 2025 est une application indépendante développée par RobinSoft. Elle n'est pas affiliée, approuvée, sponsorisée ni associée aux sociétés mentionnées ci-dessus.</p>
+        </section>
+
+        <section class="policy-section">
+          <h2>3. Licences open source</h2>
+          <p>Ce logiciel utilise diverses bibliothèques et composants open source pour améliorer ses fonctionnalités. Nous remercions les auteurs et contributeurs de ces projets.</p>
+          <p>L'utilisation de ces bibliothèques est strictement conforme à leurs licences respectives, telles que l'Apache License 2.0 et la MIT License.</p>
+        </section>
+
+        <section class="policy-section">
+          <h2>4. Propriété du contenu utilisateur</h2>
+          <p>CloudMediaPlayer 2025 agit uniquement comme un outil de lecture et de gestion multimédia. Nous ne revendiquons aucun droit de propriété sur les fichiers multimédias consultés, diffusés ou synchronisés via cette application.</p>
+          <div class="policy-callout">
+            Tous les fichiers stockés sur votre appareil local ou liés à vos comptes de stockage cloud restent votre entière propriété et sous votre responsabilité.
+          </div>
+        </section>
+
+        <section class="policy-section">
+          <h2>5. Nous contacter</h2>
+          <p>Si vous pensez qu'un contenu ou un élément de cette application porte atteinte à vos droits d'auteur ou de marque, veuillez nous contacter immédiatement afin de résoudre le problème.</p>
+          <p>E-mail : <strong>robinsoft.test01@gmail.com</strong></p>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">&copy; <span data-i18n="footer.year">2026</span> <span data-i18n="brand">robinsoft</span> — <span data-i18n="footer.suffix">CreationUnion</span></div>
+  </footer>
+
+  <script>
+    document.addEventListener('includesLoaded', function(){
+      const sel = document.getElementById('langSelect');
+      if(!sel) return;
+      const cur = window.i18n && window.i18n.currentLang ? window.i18n.currentLang : 'en';
+      sel.value = cur;
+      sel.addEventListener('change', function(){
+        const v = sel.value;
+        window.i18n && window.i18n.setLang && window.i18n.setLang(v);
+      });
+    });
+  </script>
+</body>
+</html>

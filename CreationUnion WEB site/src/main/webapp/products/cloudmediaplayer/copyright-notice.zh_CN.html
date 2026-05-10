@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>
+    window.i18n = window.i18n || {};
+    window.i18n.pageTitleKey = 'policyCopyright.pageTitle';
+  </script>
+  <title>版权声明 - CloudMediaPlayer</title>
+  <link rel="stylesheet" href="../../css/style.css">
+  <script src="../../js/i18n.js" defer></script>
+  <script src="../../js/include.js" defer></script>
+</head>
+<body class="policy-page">
+  <div data-include="../../partials/header.html" data-nav-prefix="../../"></div>
+
+  <main class="container">
+    <section class="policy-shell">
+      <div class="policy-hero">
+        <span class="policy-badge">CloudMediaPlayer • 版权声明</span>
+        <h1>版权声明与商标免责声明</h1>
+        <p>最后更新：2025 年 12 月 10 日</p>
+        <p>本页面说明应用的所有权、第三方商标的有限使用方式，以及我们如何处理用户内容和开源许可。</p>
+      </div>
+
+      <div class="policy-content">
+        <div class="policy-summary" aria-label="版权声明摘要">
+          <div class="summary-card"><strong>本应用</strong>受著作权法和国际公约保护。</div>
+          <div class="summary-card"><strong>商标</strong>仅用于说明兼容性，不表示任何认可或背书。</div>
+          <div class="summary-card"><strong>您的内容</strong>在通过本应用访问时仍归您所有。</div>
+        </div>
+
+        <div class="policy-link-row policy-footer-links" aria-label="快速链接">
+          <a href="privacy-policy.zh_CN.html">隐私政策</a>
+          <a href="payment-policy.zh_CN.html">付款政策</a>
+          <a href="help-center.zh_CN.html">帮助中心</a>
+          <a href="terms-of-service.zh_CN.html">服务条款</a>
+        </div>
+
+        <section class="policy-section">
+          <h2>1. 应用版权</h2>
+          <p><strong>Copyright © 2025 CloudMediaPlayer.</strong> 保留所有权利。</p>
+          <p>本应用的源代码、设计、图形、用户界面及底层技术均为开发者的知识产权，并受适用的著作权法及国际条约保护。</p>
+          <div class="policy-callout">
+            严禁未经授权复制、反向工程、反编译或分发本软件的全部或部分内容，否则可能导致严重的民事和刑事责任。
+          </div>
+        </section>
+
+        <section class="policy-section">
+          <h2>2. 第三方商标</h2>
+          <p>本应用集成了第三方云存储服务，以提供媒体播放功能。第三方商标、徽标和品牌名称仅用于描述和识别目的。</p>
+          <table class="policy-table" aria-label="第三方商标">
+            <thead>
+              <tr><th>品牌</th><th>商标说明</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Google Drive™</td><td>Google LLC 的商标。</td></tr>
+              <tr><td>Microsoft OneDrive</td><td>Microsoft Corporation 的商标。</td></tr>
+              <tr><td>Dropbox</td><td>Dropbox, Inc. 的商标。</td></tr>
+              <tr><td>Baidu Netdisk</td><td>百度公司的商标。</td></tr>
+            </tbody>
+          </table>
+          <p class="policy-note"><strong>非隶属关系声明：</strong>CloudMediaPlayer 2025 是由 RobinSoft 独立开发的应用程序，与上述公司不存在隶属、认可、赞助或关联关系。</p>
+        </section>
+
+        <section class="policy-section">
+          <h2>3. 开源许可</h2>
+          <p>本软件使用了多种开源库和组件以增强功能。我们感谢这些项目的作者和贡献者。</p>
+          <p>这些库的使用严格遵守其各自的许可协议，例如 Apache License 2.0 和 MIT License。</p>
+        </section>
+
+        <section class="policy-section">
+          <h2>4. 用户内容归属</h2>
+          <p>CloudMediaPlayer 2025 仅作为播放和管理媒体的工具。对于通过本应用访问、流式播放或同步的任何媒体文件，我们不主张所有权。</p>
+          <div class="policy-callout">
+            存储在您本地设备或关联云存储账户中的所有文件，均仍归您本人所有并由您自行负责。
+          </div>
+        </section>
+
+        <section class="policy-section">
+          <h2>5. 联系我们</h2>
+          <p>如果您认为本应用中的任何内容或材料侵犯了您的版权或商标权，请立即联系我们以便处理。</p>
+          <p>邮箱：<strong>robinsoft.test01@gmail.com</strong></p>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">&copy; <span data-i18n="footer.year">2026</span> <span data-i18n="brand">robinsoft</span> — <span data-i18n="footer.suffix">CreationUnion</span></div>
+  </footer>
+
+  <script>
+    document.addEventListener('includesLoaded', function(){
+      const sel = document.getElementById('langSelect');
+      if(!sel) return;
+      const cur = window.i18n && window.i18n.currentLang ? window.i18n.currentLang : 'en';
+      sel.value = cur;
+      sel.addEventListener('change', function(){
+        const v = sel.value;
+        window.i18n && window.i18n.setLang && window.i18n.setLang(v);
+      });
+    });
+  </script>
+</body>
+</html>
