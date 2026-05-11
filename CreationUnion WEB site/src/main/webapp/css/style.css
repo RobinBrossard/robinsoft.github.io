@@ -84,7 +84,9 @@ body > main{flex:1}
 @media (orientation: portrait){
   .site-banner{
     background-image:url('../images/banner-mobile.png');
-    height:clamp(120px,12vw,180px);
+    background-size:contain;
+    background-position:center center;
+    height:clamp(56px,14vw,96px);
   }
 }
 @media (orientation: landscape){
