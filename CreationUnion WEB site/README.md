@@ -2,6 +2,8 @@
 
 This repository contains a pure static GitHub Pages version of the site.
 
+Public site URL: https://www.creationunion.com/
+
 ## Publish layout
 
 GitHub Pages is built from `src/main/webapp` and publishes only the static files:
@@ -41,4 +43,4 @@ These server-side folders are excluded from the GitHub Pages output:
 
 ## Deployment
 
-The GitHub Actions workflow in `.github/workflows/pages.yml` copies the static files into a temporary `site/` folder and publishes that folder to GitHub Pages.
+The GitHub Actions workflow in `.github/workflows/pages.yml` copies the static files into a temporary `site/` folder and publishes that folder to the custom domain `https://www.creationunion.com/`.
