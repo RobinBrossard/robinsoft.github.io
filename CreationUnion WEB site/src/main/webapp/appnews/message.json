@@ -1,0 +1,41 @@
+{
+  "messages": [
+    {
+      "message_id": "202605120001",
+      "config": {
+        "type": "announcement",
+        "priority": 1,
+        "display_style": "modal",
+        "start_time": "2026-05-12T19:00:00Z",
+        "end_time": "2026-05-31T23:59:59Z",
+        "can_dismiss": true
+      },
+      "content": {
+        "zh": {
+          "title": "新功能提醒",
+          "body": "我们新增了消息通知功能，点击下方链接即可了解如何使用。",
+          "action_text": "立即查看",
+          "action_url": "https://www.creationunion.com/appnews/message-notification.html"
+        },
+        "en": {
+          "title": "New Feature",
+          "body": "A new messaging feature is now available. Click below to learn more.",
+          "action_text": "Learn More",
+          "action_url": "https://www.creationunion.com/appnews/message-notification.html"
+        },
+        "fr": {
+          "title": "Nouvelle fonctionnalité",
+          "body": "Une nouvelle fonctionnalité de message est disponible. Cliquez ci-dessous pour en savoir plus.",
+          "action_text": "En savoir plus",
+          "action_url": "https://www.creationunion.com/appnews/message-notification.html"
+        },
+        "zh-tw": {
+          "title": "新功能提醒",
+          "body": "我們新增了消息通知功能，點擊下方鏈接即可了解如何使用。",
+          "action_text": "立即查看",
+          "action_url": "https://www.creationunion.com/appnews/message-notification.html"
+        }
+      }
+    }
+  ]
+}
